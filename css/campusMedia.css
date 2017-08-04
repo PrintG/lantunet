@@ -1,0 +1,265 @@
+@charset 'utf-8';
+
+/*
+*   宽度大于等于 1201px
+*/
+@media screen and (min-width:1201px){
+    .main{
+        margin-top:72px;
+    }
+    .main .campus .goto{
+        display:block;
+    }
+}
+/*
+*   宽度小于等于 1200px 并且 大于等于 900px
+*/
+@media screen and (max-width:1200px) and (min-width:900px){
+    /*======================
+           Main Start
+    =======================*/
+    .main{
+        margin-top:72px;
+    }
+    .main .campus .goto{
+        display:block;
+    }
+    /*========= campus01 =========*/
+    .main .campus01 .cam-title{
+        top:30.2%;
+        left:20.65%;
+    }
+    /*========= campus02 =========*/
+    .main .campus02 .cam-title{
+        left:30px;
+    }
+    .main .campus02 .cam-show{
+        right:60px;
+    }
+    /*========= campus03 =========*/
+    .main .campus03 .cam-show{
+        left:60px;
+    }
+    .main .campus03 .cam-list{
+        left:450px;
+    }
+    .main .campus03 .cam-title{
+        right:60px;
+    }
+    /*========= campus04 =========*/
+    .main .campus04 .cam-title{
+        left:50px;
+    }
+    .main .campus04 .cam-show{
+        right:50px;
+    }
+    /*========= campus05 =========*/
+    .main .campus05 .cam-title{
+        right:50px;
+    }
+    .main .campus05 .cam-show{
+        left:50px;
+    }
+    /*========= campus06 =========*/
+    .main .campus06 .cam-title{
+        left:100px;
+    }
+    .main .campus06 .cam-show{
+        right:50px;
+        width:550px;
+        height:300px;
+    }
+    /*======================
+            Main End
+    =======================*/
+}
+/*
+*   宽度小于等于 899px
+*/
+@media screen and (max-width:899px){
+    /*======================
+           Main Start
+    =======================*/
+    /*========= campus01 =========*/
+    .main .campus01 .cam-title{
+        top:25.2%;
+        left:15.65%;
+        text-align:left;
+    }
+    .main .campus01 .cam-title{
+        font-size:16px;
+    }
+    .main .campus01 .cam-footer{
+        height:60px;
+    }
+    .main .campus01 .cam-footer .cam-footer-content{
+        font-size:14px;
+        line-height:60px;
+    }
+    /*========= campus02 =========*/
+    .main .campus02 .cam-show{
+        top:220px;
+        left:50%;
+        width:281.6px;
+        height:185.8px;
+        margin-left:-140.5px;
+    }
+    .main .campus02 .cam-show img{
+        margin-top:-20px;
+    }
+    /*========= campus03 =========*/
+    .main .campus03 .cam-show,
+    .main .campus03 .cam-list{
+        top:200px;
+    }
+    .main .campus03 .cam-show{
+        left:50px;
+    }
+    .main .campus03 .cam-list{
+        left:auto;
+        right:50px;
+    }
+    /*========= campus04 =========*/
+    .main .campus04 .cam-show{
+        top:auto;
+        bottom:20px;
+        left:50%;
+        width:400px;
+        height:330px;
+        margin-left:-200px;
+        background-size:cover;
+    }
+    .main .campus04 .cam-show img{
+        left:42%;
+        width:118px;
+        height:127px;
+    }
+    /*========= campus05 =========*/
+    .main .campus05 .cam-show{
+        top:auto;
+        bottom:0;
+        left:50%;
+        width:417px;
+        height:344px;
+        margin-left:-151px;
+    }
+    /*========= campus06 =========*/
+    .main .campus06 .cam-show{
+        top:auto;
+        bottom:53px;
+        left:50%;
+        width:400px;
+        height:220px;
+        margin-left:-200px;
+    }
+    /*========= campus-show =========*/
+    .main .campus-show .cam-title{
+        width:100%;
+        top:42px;
+        text-align:center;
+        left:0;
+    }
+    .main .campus-show .cam-title h2{
+        font-size:34px;
+    }
+    .main .campus-show .cam-title p{
+        font-size:14px;
+    }
+    /*========= campusbg =========*/
+    .main .campus-bg{
+        height:300px;
+        background-attachment:scroll;
+    }
+    /*======================
+            Main End
+    =======================*/
+    /*======================
+            footer Start
+    =======================*/
+    body .bottom-footer{
+        min-width:341px;
+        background-size:cover;
+    }
+    body .bottom-footer .foot-content p{
+        margin:0;
+        line-height:30px;
+    }
+    /*======================
+            footer End
+    =======================*/
+}
+
+/*
+*   宽度小于等于 599px
+*/
+@media screen and (max-width:599px){
+    /*======================
+           Main Start
+    =======================*/
+    /*========= campus01 =========*/
+    .main .campus01 .cam-title{
+        font-size:14px;
+    }
+    .main .campus01 .cam-footer{
+        height:50px;
+    }
+    .main .campus01 .cam-footer .cam-footer-content{
+        font-size:12px;
+        line-height:50px;
+    }
+    /*========= campus03 =========*/
+    .main .campus03{
+        height:650px;
+    }
+    .main .campus03 .cam-show{
+        top:200px;
+        left:50%;
+        width:280px;
+        height:280px;
+        margin-left:-140px;
+        background-image:url("../img/campus/campus03-show-media.png");
+    }
+    .main .campus03 .cam-list{
+        top:700px;
+        left:50%;
+        width:320px;
+        margin-left:-153px;
+        font-size:16px;
+    }
+    .main .campus03 .cam-list .item{
+        margin-right:20px;
+        text-indent:20px;
+    }
+    .main .campus03 .cam-list .item.activity{
+        color:#B6D230;
+        font-size:16px;
+    }
+    /*========= campus04 =========*/
+    .main .campus04{
+        overflow:hidden;
+    }
+    /*========= campus05 =========*/
+    .main .campus05{
+        overflow:hidden;
+    }
+    .main .campus05 .cam-show{
+        bottom:90px;
+        width:318px;
+        height:263px;
+        margin-left:-115px;
+    }
+    /*========= campus06 =========*/
+    .main .campus06 .cam-show{
+        bottom:100px;
+        width:298px;
+        height:167px;
+        margin-left:-165px;
+    }
+    /*========= campusbg =========*/
+    .main .campus-bg{
+        height:300px;
+    }
+    /*======================
+            Main End
+    =======================*/
+}

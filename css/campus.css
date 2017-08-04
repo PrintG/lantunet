@@ -1,0 +1,320 @@
+@charset 'utf-8';
+
+/*=========================
+         Main Start
+=========================*/
+.main{
+    margin-top:107px;
+    min-width:341px;
+}
+.main .campus{
+    position:relative;
+    width:100%;
+}
+.main .campus .goto{
+    display:none;
+    position:absolute;
+    bottom:-23px;
+    left:50%;
+    width:46px;
+    height:46px;
+    margin-left:-23px;
+    background-image:url('../img/campus/a_d.png');
+    cursor:pointer;
+}
+.main .campus-bg{
+    width:100%;
+    height:430px;
+    background:no-repeat center/cover fixed;
+}
+.main .campus-show{
+    height:530px;
+    background-color:#f0f2f5;
+}
+.main .campus .cam-title{
+    position:absolute;
+    color:#0080ba;
+}
+.main .campus .cam-title h2{
+    font-size:40px;
+}
+.main .campus .cam-title p{
+    font-size:18px;
+}
+.main .campus .cam-title .font{
+    margin:11px 0;
+}
+    /*========= campus01 =========*/
+.main .campus01{
+    background:url('../img/campus/bg1.jpg') no-repeat center/cover;
+}
+.main .campus01 .cam-title{
+    position:absolute;
+    top:37.2%;
+    left:29.65%;
+    width:288px;
+    color:#fff;
+    text-align:right;
+    font-size:20px;
+}
+.main .campus01 .cam-title h2{
+    margin-bottom:10px;
+    font-size:2.2em;
+}
+.main .campus01 .cam-title p{
+    font-size:0.9em;
+}
+.main .campus01 .cam-footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:100px;
+    background-color:rgba(220,220,220,.4);
+}
+.main .campus01 .cam-footer .cam-footer-content{
+    color:#eee;
+    text-align:center;
+    line-height:100px;
+}
+    /*========= campus02 =========*/
+.main .campus02 .cam-title{
+    top:194px;
+    left:175px;
+}
+.main .campus02 .cam-show{
+    position:absolute;
+    top:88px;
+    right:175px;
+    width:530px;
+    height:351px;
+    background:url('../img/campus/campus02-show.png') no-repeat center/cover;
+}
+.main .campus02 .cam-show img{
+    width:86.982%;
+    height:121.94%;
+    margin:-35px auto;
+    -webkit-animation:Camp-rotate 8s linear infinite;
+    -moz-animation:Camp-rotate 8s linear infinite;
+    -o-animation:Camp-rotate 8s linear infinite;
+}
+/*========= campus03 =========*/
+.main .campus03 .cam-show{
+    position:absolute;
+    top:103px;
+    left:175px;
+    width:324px;
+    height:324px;
+    background:url('../img/campus/campus03-show.png') no-repeat 0 0;
+}
+.main .campus03 .cam-list{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:600px;
+    width:150px;
+    height:325px;
+    margin:auto 0;
+    color:#0080BA;
+    font-size:18px;
+}
+.main .campus03 .cam-list .item{
+    float:left;
+    position:relative;
+    margin:5px auto;
+    text-indent:35px;
+    cursor:pointer;
+    -webkit-transition:font-size .2s linear;
+}
+.main .campus03 .cam-list .item span{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    width:10px;
+    height:10px;
+    margin:auto 0;
+    background-color:#B6D230;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+.main .campus03 .cam-list .item.activity{
+    font-size:26px;
+}
+.main .campus03 .cam-title{
+    top:204px;
+    right:200px;
+}
+/*========= campus04 =========*/
+.main .campus04 .cam-title{
+    top:205px;
+    left:175px;
+}
+.main .campus04 .cam-show{
+    position:absolute;
+    top:49px;
+    right:175px;
+    width:530px;
+    height:434px;
+    background-image:url('../img/campus/campus04-clock.png');
+}
+.main .campus04 .cam-show img{
+    position:absolute;
+    top:25%;
+    left:41%;
+    -webkit-transform:rotate(-46deg);
+    -moz-transform:rotate(-46deg);
+    -o-transform:rotate(-46deg);
+    transform:rotate(-46deg);
+    -webkit-transform-origin:25.5% 66%;
+    -moz-transform-origin:25.5% 66%;
+    -o-transform-origin:25.5% 66%;
+    transform-origin:25.5% 66%;
+    -webkit-animation:clock-rotate 60s linear infinite;
+    -moz-animation:clock-rotate 60s linear infinite;
+    -o-animation:clock-rotate 60s linear infinite;
+    animation:clock-rotate 60s linear infinite;
+}
+/*========= campus05 =========*/
+.main .campus05 .cam-title{
+    top:203px;
+    right:160px;
+}
+.main .campus05 .cam-show{
+    position:absolute;
+    top:67px;
+    left:160px;
+}
+.main .campus05 .cam-show .rotate-show{
+    position:absolute;
+    top:0;
+    left:0;
+    width:72.08%;
+    height:87.832%;
+    -webkit-transform:rotate(-46deg);
+    -moz-transform:rotate(-46deg);
+    -o-transform:rotate(-46deg);
+    transform:rotate(-46deg);
+    -webkit-animation:clock-rotate 20s linear infinite;
+    -moz-animation:clock-rotate 20s linear infinite;
+    -o-animation:clock-rotate 20s linear infinite;
+    animation:clock-rotate 20s linear infinite;
+}
+/*========= campus06 =========*/
+.main .campus06 .cam-title{
+    top:180px;
+    left:175px;
+}
+.main .campus06 .cam-title .row-group{
+    display:block;
+    width:245px;
+    margin:auto;
+}
+.main .campus06 .cam-title .row-group .row{
+    display:table-row;
+}
+.main .campus06 .cam-title .row-group .cell{
+    text-align:center;
+    display:table-cell;
+    padding:5px 12.5px;
+}
+.main .campus06 .cam-show{
+    position:absolute;
+    top:84px;
+    right:174px;
+    width:668px;
+    height:364px;
+    background:url('../img/campus/campus06-show.png') no-repeat 0/cover;
+}
+
+/*====== goto(public) ======*/
+.main .campus01 .cam-footer .goto{
+    top:-23px;
+}
+/*====== bg(public) ======*/
+.main .campus05 .cam-show .bg{
+    width:100%;
+    height:100%;
+}
+/*========= campus-bg01 =========*/
+.main .campus-bg01{
+    background-image:url('../img/campus/bg2.jpg');
+}
+/*========= campus-bg02 =========*/
+.main .campus-bg02{
+    background-image:url('../img/campus/bg3.jpg');
+}
+/*========= campus-bg03 =========*/
+.main .campus-bg03{
+    background-image:url('../img/campus/bg4.jpg');
+}
+/*========= campus-bg04 =========*/
+.main .campus-bg04{
+    background-image:url('../img/campus/bg5.jpg');
+}
+/*========= campus-bg05 =========*/
+.main .campus-bg05{
+    background-image:url('../img/campus/bg6.jpg');
+}
+/*=========================
+         Main End
+=========================*/
+
+
+/*=========================
+         Footer Start
+=========================*/
+body .bottom-footer{
+    width:100%;
+    margin:0;
+    padding-bottom:30px;
+    background:url('../img/campus/footer-bg.jpg') no-repeat center center;
+}
+body .bottom-footer .foot-content p{
+    color:#fff;
+}
+/*=========================
+         Footer End
+=========================*/
+
+
+/*=========================
+        Animation
+=========================*/
+    /*=== campus2 旋转 ===*/
+@-webkit-keyframes Camp-rotate{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes Camp-rotate{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-o-keyframes Camp-rotate{
+    from{-o-transform:rotate(0deg);}
+    to{-o-transform:rotate(360deg);}
+}
+@keyframes Camp-rotate{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+    /*=== campus4 clock ===*/
+@-webkit-keyframes clock-rotate{
+    from{transform:rotate(-46deg);}
+    to{transform:rotate(360deg);}
+}
+@-moz-keyframes clock-rotate{
+    from{transform:rotate(-46deg);}
+    to{transform:rotate(360deg);}
+}
+@-o-keyframes clock-rotate{
+    from{transform:rotate(-46deg);}
+    to{transform:rotate(360deg);}
+}
+@keyframes clock-rotate{
+    from{transform:rotate(-46deg);}
+    to{transform:rotate(360deg);}
+}
+
+

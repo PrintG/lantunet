@@ -1,0 +1,85 @@
+@charset 'utf-8';
+
+/*
+*   宽度小于等于 1200px 并且 大于等于 900px
+*/
+@media screen and (max-width:1200px) and (min-width:900px){
+    /*======================
+           Main Start
+    =======================*/
+
+    /*========= Main-Banner Start=========*/
+    .main .main-banner{
+        height:520px;
+    }
+    /*========= Main-Banner End=========*/
+
+    /*========= Main-Content Start=========*/
+    .main .main-content .column-list{
+        width:80%;
+    }
+    /*========= Main-Content End=========*/
+
+    /*======================
+            Main End
+    =======================*/
+}
+/*
+*   宽度小于等于 899px
+*/
+@media screen and (max-width:899px){
+    /*======================
+           Main Start
+    =======================*/
+    .main{
+        margin-top:105px;
+    }
+    /*========= Main-Banner Start=========*/
+    .main .main-banner{
+        height:400px;
+    }
+    /*========= Main-Banner End=========*/
+
+    /*========= Main-Content Start=========*/
+    .main .main-content .column-list{
+        width:80%;
+    }
+    /*========= Main-Content End=========*/
+
+    /*======================
+            Main End
+    =======================*/
+}
+
+/*
+*   宽度小于等于 599px
+*/
+@media screen and (max-width:599px){
+    /*======================
+           Main Start
+    =======================*/
+
+    /*========= Main-Banner Start=========*/
+    .main .main-banner{
+        height:230px;
+    }
+    .main .main-banner .pic-wrap{
+        left:15px;
+        width:150px;
+    }
+    /*========= Main-Banner End=========*/
+
+    /*========= Main-Content Start=========*/
+    .main .main-content .column-list .column .column-title{
+        font-size:18px;
+        text-align:center;
+    }
+    .main .main-content .column-list .column .column-ins{
+        font-size:14px;
+    }
+    /*========= Main-Content End=========*/
+
+    /*======================
+            Main End
+    =======================*/
+}

@@ -1,0 +1,80 @@
+@charset 'utf-8';
+/*========== Reset ==========*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,img{ display:block; }
+div,p,span,a,ul,pre,table,sub,sup,form,footer,header{font-family:"Microsoft YaHei";}
+a{text-decoration:none;color:#000;}
+table{border-collapse:collapse;border-spacing:0}
+audio,canvas,video { display: inline-block;*display: inline;*zoom: 1;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;font-family:"Microsoft YaHei";}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+
+/*========== global CSS ==========*/
+/*=== flaot ===*/
+.fl-l{float:left;}
+.fl-r{float:right;}
+.clearfix:after{content:"";display:block;clear:both;}
+
+/*=== position ===*/
+.pos-r{position:relative;}
+.pos-a{position:absolute;}
+.pos-f{position:fixed;}
+.ps-t{top:0;}
+.ps-l{left:0;}
+.ps-b{bottom:0;}
+.ps-r{right:0;}
+
+/*=== text ===*/
+.cent{text-align:center;}
+
+/*=== other ===*/
+.mar-merge{
+    border-top:1px solid transparent;
+}
+
+
+/*=== title public css ===*/
+.public-title{
+    position:relative;
+    width:520px;
+    margin:0 auto 3px;
+    padding:39px 0 33px;
+    border-bottom:1px solid #000;
+}
+.public-title:after{
+    content:'';
+    position:absolute;
+    bottom:-3.5px;
+    left:50%;
+    width:52px;
+    height:7px;
+    margin-left:-26px;
+    background-color:#A7C31E;
+}
+.public-title>img{
+    width:50%;
+    margin:0 auto 17px;
+}
+.public-title>p{
+    font-size:18px;
+    text-align:center;
+}
+@media screen and (max-width:1200px) and (min-width:900px){
+    .public-title{
+        width:461px;
+    }
+}
+@media screen and (max-width:899px){
+    .public-title{
+        width:70.085%;
+    }
+}

@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+/*
+*   宽度大于等于 1201px
+*/
+@media screen and (min-width:1201px){
+    /*======================
+            Main Start
+    ======================*/
+    .main .banner-wrap{
+        margin-top:72px;
+    }
+    /*========= Case Start =========*/
+    .main .case-wrap .case-btn{
+        top:54%;
+    }
+    .main .case-wrap .case-show .dot-list{
+        display:block;
+    }
+    /*========= Case End =========*/
+}
+/*
+*   宽度小于等于 1200px 并且 大于等于 900px
+*/
+@media screen and (max-width:1200px) and (min-width:900px){
+    /*======================
+            Main Start
+    =======================*/
+    .main .banner-wrap{
+        margin-top:72px;
+    }
+    /*========= banner Start =========*/
+    .main .banner-wrap{
+        height:450px;
+    }
+    .main .banner-wrap .banner .item1 .b-font{
+        left:53px;
+        bottom:22px;
+    }
+    .main .banner-wrap .banner .item1 .b-play{
+        width:500px;
+        height:380px;
+    }
+    .main .banner-wrap .banner .item2 .b-font{
+        bottom:144px;
+        width:250px;
+        height:105px;
+    }
+    .main .banner-wrap .banner .item2 .b-pic{
+        right:50px;
+        bottom:44px;
+        width:550px;
+        height:381px;
+    }
+    .main .banner-wrap .banner .item3 .b-pic{
+        top:20px;
+        left:30px;
+        width:500px;
+        height:389px;
+    }
+    .main .banner-wrap .banner .item3 .b-font{
+        top:100px;
+        right:50px;
+        width:250px;
+        height:98px;
+    }
+    /*========= banner End =========*/
+
+    /*========= Case Start =========*/
+    .main .case-wrap .case-show{
+        width:900px;
+        height:400px;
+    }
+    .main .case-wrap .case-show .case-show-list{
+        top:110px;
+    }
+    .main .case-wrap .case-show .case-show-list .item{
+        width:172.8px;
+        height:288px;
+    }
+    .main .case-wrap .case-show .dot-list{
+        display:block;
+    }
+    /*========= Case End =========*/
+    /*======================
+           Main End
+    =======================*/
+}
+/*
+*   宽度小于等于 899px
+*/
+@media screen and (max-width:899px){
+    /*======================
+           Main Start
+    =======================*/
+
+    /*========= banner Start =========*/
+    .main .banner-wrap{
+        height:350px;
+    }
+    .main .banner-wrap .banner .item1 .b-font{
+        bottom:0;
+        left:50%;
+        width:194px;
+        height:77px;
+        margin-left:-97px;
+    }
+    .main .banner-wrap .banner .item1 .b-play{
+        top:8px;
+        left:50%;
+        width:328px;
+        height:249px;
+        margin-left:-164px;
+    }
+    .main .banner-wrap .banner .item2 .b-font{
+        bottom:62px;
+        left:30px;
+        width:180px;
+        height:88px;
+    }
+    .main .banner-wrap .banner .item2 .b-pic{
+        right:10px;
+        bottom:32px;
+        width:380px;
+        height:268px;
+    }
+    .main .banner-wrap .banner .item3 .b-pic{
+        top:50px;
+        left:20px;
+        width:350px;
+        height:274px;
+    }
+    .main .banner-wrap .banner .item3 .b-font{
+        top:97px;
+        right:30px;
+        width:200px;
+        height:87px;
+    }
+    /*========= banner End =========*/
+
+    /*========= Case Start =========*/
+    .main .case-wrap .case-show{
+        width:600px;
+        height:350px;
+    }
+    .main .case-wrap .case-show .case-show-list{
+        top:105px;
+    }
+    .main .case-wrap .case-show .case-show-list .item{
+        width:180px;
+        height:297px;
+    }
+    .main .case-wrap .case-show .case-show-list .item.sideify{
+        -webkit-transform:scale(0.8);
+        -moz-transform:scale(0.8);
+        -ms-transform:scale(0.8);
+        -o-transform:scale(0.8);
+        transform:scale(0.8);
+    }
+    .main .case-wrap .case-show .case-show-list .item.middleify{
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+    }
+    /*========= Case End =========*/
+
+    /*========= Partner Start =========*/
+    .main .partner .partner-list{
+        width:100%;
+        margin-top:50px;
+    }
+    .main .partner .partner-list li{
+        float:none;
+    }
+    .main .partner .partner-list li.marR{
+        margin-right:0;
+    }
+    .main .partner .partner-list li img{
+        margin:auto;
+    }
+    /*========= Partner End =========*/
+
+    /*======================
+            Main End
+    =======================*/
+}
+
+/*
+*   宽度小于等于 599px
+*/
+@media screen and (max-width:599px){
+    /*======================
+           Main Start
+    =======================*/
+
+    /*========= banner Start =========*/
+    .main .banner-wrap{
+        height:400px;
+    }
+    .main .banner-wrap .banner .item1 .b-font{
+        bottom:25px;
+    }
+    .main .banner-wrap .banner .item1 .b-play{
+        top:20px;
+    }
+    .main .banner-wrap .banner .item2 .b-font{
+        left:50%;
+        width:200px;
+        height:92px;
+        margin-left:-100px;
+    }
+    .main .banner-wrap .banner .item2 .b-pic{
+        top:20px;
+        left:50%;
+        width:300px;
+        height:212px;
+        margin-left:-150px;
+    }
+    .main .banner-wrap .banner .item3 .b-pic{
+        top:0;
+        left:50%;
+        width:300px;
+        height:235px;
+        margin-left:-150px;
+    }
+    .main .banner-wrap .banner .item3 .b-font{
+        top:auto;
+        bottom:60px;
+        left:50%;
+        width:200px;
+        height:87px;
+        margin-left:-100px;
+    }
+    /*========= banner End =========*/
+
+    /*========= Case Start =========*/
+    .main .case-wrap .case-show{
+        width:200px;
+        height:350px;
+    }
+    .main .case-wrap .case-show .case-show-list .item{
+        width:199px;
+        height:329px;
+    }
+    /*========= Case End =========*/
+
+    /*========= Partner Start =========*/
+    .main .partner .partner-list{
+        width:100%;
+        margin-top:50px;
+    }
+    .main .partner .partner-list li{
+        float:none;
+    }
+    .main .partner .partner-list li.marR{
+        margin-right:0;
+    }
+    .main .partner .partner-list li img{
+        width:36.335%;
+        margin:auto;
+    }
+    .main .partner .partner-list li.rd-2 img{
+        width:20%;
+    }
+    /*========= Partner Ends =========*/
+    /*======================
+            Main End
+    =======================*/
+}

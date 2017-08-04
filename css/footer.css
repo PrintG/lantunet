@@ -1,0 +1,36 @@
+.bottom-footer{
+    width:90.067%;
+    margin:210px auto 50px;
+    border-top:1px solid #E6E6E6;
+}
+.bottom-footer .foot-content{
+    width:700px;
+    margin:20px auto 0;
+}
+.bottom-footer .foot-content p{
+    float:left;
+    color:#c2c2c2;
+}
+.bottom-footer .foot-content p.marRight{
+    margin-right:50px;
+}
+
+
+/*========= @media =========*/
+@media screen and (max-width:899px){
+    .bottom-footer{
+        margin:100px auto 20px;
+    }
+    .bottom-footer .foot-content{
+        width:100%;
+    }
+    .bottom-footer .foot-content p{
+        float:none;
+        text-align:center;
+        margin:20px 0;
+        font-size:14px;
+    }
+    .bottom-footer .foot-content p.marRight{
+        margin-right:0;
+    }
+}

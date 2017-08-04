@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/*================
+    header部分
+=================*/
+.top-header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    width:100%;
+    min-width:335px;
+    height:65px;
+    background-color:#e9ebee;
+    -webkit-box-shadow:0 0 1px 2px #ccc;
+    -moz-box-shadow:0 0 1px 2px #ccc;
+    -o-box-shadow:0 0 1px 2px #ccc;
+    box-shadow:0 0 1px 2px #ccc;
+}
+.top-header .h-content{
+    width:1092px;
+    height:100%;
+    margin:auto;
+}
+/*======= logo Start =======*/
+.top-header .h-content .h-c-logo{
+    margin-top:11px;
+}
+.top-header .h-content .h-c-logo img{
+    margin:auto;
+}
+/*======= logo End=======*/
+
+/*======= nav =======*/
+.top-header .h-content .h-c-nav{
+    margin-left:112px;
+}
+/*=== nav-list1 ===*/
+.top-header .h-content .h-c-nav .nav-list1 div{
+    float:left;
+    height:65px;
+    line-height:74px;
+}
+.top-header .h-content .h-c-nav .nav-list1 div a{
+    font-size:15px;
+    padding:10px 40px;
+}
+.top-header .h-content .h-c-nav .nav-list1 div a.active,
+.top-header .h-content .h-c-nav .nav-list1 div a:hover{
+    color:#A7C31E;
+}
+/*=== nav-list2 ===*/
+.top-header .h-content .h-c-nav .nav-list2{
+    display:none;
+    width:482px;
+    margin:auto;
+}
+.top-header .h-content .h-c-nav .nav-list2 div{
+    float:left;
+    height:48px;
+    line-height:48px;
+}
+.top-header .h-content .h-c-nav .nav-list2 div a{
+    font-size:15px;
+    padding:10px 37px;
+}
+.top-header .h-content .h-c-nav .nav-list2 div a.active,
+.top-header .h-content .h-c-nav .nav-list2 div a:hover{
+    color:#A7C31E;
+}
+.top-header .h-content .h-c-nav .nav-list2 div{
+    float:left;
+    height:48px;
+    line-height:48px;
+}
+.top-header .h-content .h-c-nav .nav-list2 div a{
+    font-size:15px;
+    padding:10px 37px;
+}
+.top-header .h-content .h-c-nav .nav-list2 div a.active,
+.top-header .h-content .h-c-nav .nav-list2 div a:hover{
+    color:#A7C31E;
+}
+.top-header .h-content .h-c-nav .nav-list2 div.more{
+    position:relative;
+}
+.top-header .h-content .h-c-nav .nav-list2 div.more a{
+    display:block;
+    padding:0 30px;
+}
+.top-header .h-content .h-c-nav .nav-list2 div.more a img{
+    display:inline;
+    width:14px;
+    height:14px;
+    vertical-align:-1px;
+}
+.top-header .h-content .h-c-nav .nav-list2 div.more ul{
+    display:none;
+    position:absolute;
+    top:42px;
+    left:50%;
+    z-index:999;
+    width:100px;
+    height:140px;
+    margin-left:-50px;
+    border:1px solid #555;
+    background-color:#fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+.top-header .h-content .h-c-nav .nav-list2 div.more ul.active{
+    display:block;
+}
+.top-header .h-content .h-c-nav .nav-list2 div.more ul li{
+    height:35px;
+    line-height:35px;
+    text-align:center;
+}
+.top-header .h-content .h-c-nav .nav-list2 div.more ul li a{
+    padding:0;
+}
+/*======= nav End =======*/
+
+/*==============
+    @media
+==============*/
+/*
+*   宽度小于等于 1200px 并且 大于等于 900px
+*/
+@media screen and (max-width:1200px) and (min-width:900px){
+    /*===== nav Start =====*/
+    .top-header .h-content{
+        width:800px;
+    }
+    .top-header .h-content .h-c-nav{
+        margin-left:45px;
+    }
+    .top-header .h-content .h-c-nav .nav-list1 div a{
+        padding:10px 20px;
+    }
+    /*===== nav End =====*/
+
+}
+/*
+*   宽度小于等于 899px
+*/
+@media screen and (max-width:899px){
+    .top-header{
+        height:100px;
+        background-color:#fff;
+    }
+    .top-header .h-content{
+        width:100%;
+        height:100%;
+    }
+    /*===== logo Start =====*/
+    .top-header .h-content .h-c-logo{
+        float:none;
+        margin-top:14px;
+    }
+    /*===== logo End =====*/
+
+    /*===== nav Start =====*/
+    .top-header .h-content .h-c-nav{
+        width:100%;
+        margin-left:0;
+    }
+    .top-header .h-content .h-c-nav .nav-list1{
+        display:none;
+    }
+    .top-header .h-content .h-c-nav .nav-list2{
+        display:block;
+    }
+    /*===== nav End =====*/
+
+}
+
+/*
+*   宽度小于等于 599px
+*/
+@media screen and (max-width:599px){
+    /*===== nav Start =====*/
+    .top-header .h-content .h-c-nav .nav-list2{
+        width:332px;
+    }
+    .top-header .h-content .h-c-nav .nav-list2 div a{
+        padding:10px 15px;
+    }
+    .top-header .h-content .h-c-nav .nav-list2 div.more a{
+        padding:0px 21px;
+    }
+    /*===== nav End =====*/
+}

@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+/*=========================
+         Main Start
+=========================*/
+.main{
+    min-width:335px;
+    margin-top:70px;
+}
+/*========= Main-Banner Start=========*/
+.main .main-banner{
+    position:relative;
+    width:100%;
+    height:620px;
+    background:url('../img/case/bg.jpg') no-repeat center top/cover;
+}
+.main .main-banner .pic-wrap{
+    position:absolute;
+    top:40.4%;
+    left:7.45%;
+    width:30.4%;
+    height:19.4%;
+}
+.main .main-banner .pic-wrap .pic-font1{
+    width:99.74%;
+    height:23.3%;
+    margin-bottom:4.41%;
+}
+.main .main-banner .pic-wrap .pic-font2{
+    width:89.01%;
+    height:28.3%;
+    margin-bottom:2.5%;
+}
+.main .main-banner .pic-wrap .pic-font3{
+    width:99.5%;
+    height:14.2%;
+}
+/*========= Main-Banner End=========*/
+
+/*========= Main-Content Start=========*/
+.main .main-content .column-list{
+    width:860px;
+    margin:115px auto 0;
+}
+.main .main-content .column-list .column{
+    margin-top:157px;
+}
+.main .main-content .column-list .column1{
+    margin-top:0;
+}
+.main .main-content .column-list .column .column-title{
+    font-size:20px;
+}
+.main .main-content .column-list .column .column-ins{
+    color:#969696;
+    margin-top:56px;
+    line-height:30px;
+}
+.main .main-content .column-list .column .pic{
+    margin:55px auto 0;
+    width:59%;
+    min-width:269px;
+
+}
+/*========= Main-Content End=========*/
+
+/*=========================
+         Main End
+=========================*/
+
